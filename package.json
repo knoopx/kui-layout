@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "kui-theme": "knoopx/kui-theme"
+  },
+  "name": "kui-layout",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knoopx/kui-layout.git"
+  },
+  "author": "Víctor Martínez <knoopx@gmail.com> (http://knoopx.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knoopx/kui-layout/issues"
+  },
+  "homepage": "https://github.com/knoopx/kui-layout#readme",
+  "description": ""
+}
