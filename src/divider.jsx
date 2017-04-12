@@ -1,18 +1,19 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { theme } from 'kui-theme'
 
 @theme('divider', {
-  color: React.PropTypes.string.isRequired,
-  size: React.PropTypes.number.isRequired,
+  color: PropTypes.string,
+  size: PropTypes.number,
 })
 export default class Divider extends React.PureComponent {
   static contextTypes = {
-    flow: React.PropTypes.string.isRequired,
+    flow: PropTypes.string.isRequired,
   }
 
   static propTypes = {
-    color: React.PropTypes.string.isRequired,
-    size: React.PropTypes.number.isRequired,
+    color: PropTypes.string.isRequired,
+    size: PropTypes.number.isRequired,
   }
 
   render() {

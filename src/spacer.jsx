@@ -1,8 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default class Spacer extends React.PureComponent {
   static propTypes = {
-    style: React.PropTypes.object,
+    style: PropTypes.object,
   }
 
   static defaultProps = {

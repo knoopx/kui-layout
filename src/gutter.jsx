@@ -1,16 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { theme } from 'kui-theme'
 
 @theme('gutter', {
-  size: React.PropTypes.number.isRequired,
+  size: PropTypes.number,
 })
 export default class Gutter extends React.PureComponent {
   static contextTypes = {
-    flow: React.PropTypes.string.isRequired,
+    flow: PropTypes.string.isRequired,
   }
 
   static propTypes = {
-    size: React.PropTypes.number.isRequired,
+    size: PropTypes.number.isRequired,
   }
 
   render() {

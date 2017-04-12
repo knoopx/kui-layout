@@ -16,7 +16,7 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-fbjs@^0.8.4:
+fbjs@^0.8.4, fbjs@^0.8.9:
   version "0.8.12"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
@@ -51,7 +51,7 @@ js-tokens@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
 
-"kui-theme@github:knoopx/kui-theme", kui-theme@knoopx/kui-theme:
+kui-theme@knoopx/kui-theme:
   version "1.0.0"
   resolved "https://codeload.github.com/knoopx/kui-theme/tar.gz/64b9c2b6639ad4cd3b5a48606f381200c6b47ca9"
   dependencies:
@@ -96,6 +96,12 @@ promise@^7.1.1:
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
   dependencies:
     asap "~2.0.3"
+
+prop-types@^15.5.7:
+  version "15.5.7"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.7.tgz#231c4f29cdd82e355011d4889386ca9059544dd1"
+  dependencies:
+    fbjs "^0.8.9"
 
 react@^15.0.0:
   version "15.4.2"

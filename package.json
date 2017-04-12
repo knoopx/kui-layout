@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "kui-theme": "knoopx/kui-theme"
+    "kui-theme": "knoopx/kui-theme",
+    "prop-types": "^15.5.7"
   },
   "name": "kui-layout",
   "version": "1.0.0",

@@ -1,10 +1,12 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import View from './view'
 import Gutter from './gutter'
 
 export default class Group extends React.PureComponent {
   static propTypes = {
-    separator: React.PropTypes.element.isRequired,
+    separator: PropTypes.element.isRequired,
   }
 
   static defaultProps = {
